@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>The Original Snake Game</title> <!-- The title of the page -->
+</head>
+<body style="background-color: black;">
+  <h1 id="game-title">The Original Snake Game</h1>
+  <canvas id="game" width="400" height="400">Your browser does not support the HTML canvas tag.</canvas>
+    <button id="restart" class="btn btn-warning" style="display: none;"> Play again! </button>  <script src="snakegame.js"></script>
+  <script>
+    document.getElementById("restart").addEventListener('click', function() {
+        location.reload(); // This refreshes the page
+    });
+  </script>
+</body>
+</html>

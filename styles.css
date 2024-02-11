@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;  /* This ensures elements stack vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+#game-title {
+    text-align: center;
+    color: white;  
+    margin-bottom: 40px; /* Adjust this value to increase or decrease the space */
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+canvas {
+    border: 1px solid white;
+}
